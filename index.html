@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Septian</title>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:wght@400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Background Grid -->
+    <div class="grid-bg"></div>
+    <canvas id="bg-canvas"></canvas>
+    <div class="cursor-glow"></div>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="logo">SHORUU<span>.</span></div>
+
+      <nav>
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#learning">Learning</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>
+          Hello,<br />
+          Saya<span> Septian Dwi Putra</span>
+        </h1>
+
+        <h2>IT Student & Developer</h2>
+      </div>
+      <div class="hero-image">
+        <img src="img/foto1.jpeg" alt="Foto Septian" />
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section-title">
+        <h2>ABOUT</h2>
+      </div>
+
+      <div class="about-content">
+        <div class="about-number">
+          <p>PROFILE</p>
+        </div>
+
+        <div class="about-text">
+          <h3>
+            Building things<br />
+            with <span>code.</span>
+          </h3>
+
+          <p>
+            Halo, saya Septian, mahasiswa Teknik Informatika yang memiliki
+            ketertarikan di bidang teknologi, khususnya web development dan
+            programming.
+          </p>
+
+          <p>
+            Saya senang mempelajari hal-hal baru dalam dunia teknologi dan
+            mengembangkan berbagai project sebagai bagian dari proses belajar.
+            Saat ini saya terus meningkatkan kemampuan dalam HTML, CSS,
+            JavaScript, Java, dan beberapa teknologi lainnya.
+          </p>
+          <p>
+            Di luar kegiatan coding, saya juga suka bermain game, mendengarkan
+            musik, dan jalan-jalan. Saya terbuka untuk belajar, mencoba hal
+            baru, dan terus mengembangkan kemampuan saya di bidang teknologi.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--SKILLS-->
+    <section id="skills" class="section">
+      <div class="section-title">
+        <h2>SKILLS</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card html-card">
+          <span>01</span>
+          <h3>HTML</h3>
+          <p>Web Structure</p>
+
+          <div class="skill-preview">
+            <img src="img/html.png" alt="HTML Logo" />
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <span>02</span>
+          <h3>CSS</h3>
+          <p>Web Design</p>
+          <div class="skill-preview">
+            <img src="img/css.png" alt="CSS Logo" />
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <span>03</span>
+          <h3>JavaScript</h3>
+          <p>Web Interaction</p>
+          <div class="skill-preview">
+            <img src="img/js.png" alt="JAVASCRIPT Logo" />
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <span>04</span>
+          <h3>Java</h3>
+          <p>Programming</p>
+          <div class="skill-preview">
+            <img src="img/j.png" alt="JAVA Logo" />
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <span>05</span>
+          <h3>SQL</h3>
+          <p>Database</p>
+          <div class="skill-preview">
+            <img src="img/sql.png" alt="SQL Logo" />
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <span>06</span>
+          <h3>Networking</h3>
+          <p>Computer Network</p>
+          <div class="skill-preview">
+            <img src="img/n.png" alt="NETWORK Logo" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--LEARNING-->
+    <section id="learning" class="section">
+      <div class="section-title">
+        <h2>LEARNING</h2>
+      </div>
+
+      <div class="learning-grid">
+        <div class="learning-card">
+          <span>01</span>
+          <h3>Web Development</h3>
+          <p>Learning HTML, CSS, and JavaScript to build modern websites.</p>
+        </div>
+
+        <div class="learning-card">
+          <span>02</span>
+          <h3>Java Programming</h3>
+          <p>
+            Learning object-oriented programming and basic application
+            development.
+          </p>
+        </div>
+
+        <div class="learning-card">
+          <span>03</span>
+          <h3>Database</h3>
+          <p>Learning SQL, MySQL, SQLite, and database management.</p>
+        </div>
+
+        <div class="learning-card">
+          <span>04</span>
+          <h3>Networking</h3>
+          <p>
+            Learning computer networks, subnetting, routing, and network
+            fundamentals.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-title">
+        <h2>CONTACT</h2>
+      </div>
+
+      <div class="contact-header">
+        <div>
+          <span>GET IN TOUCH</span>
+
+          <h3>
+            Let's build<br />
+            something <strong>together.</strong>
+          </h3>
+        </div>
+
+        <p>
+          Jika ingin menghubungi saya atau sekadar berdiskusi mengenai
+          teknologi, programming, atau project, silakan hubungi saya.
+        </p>
+      </div>
+
+      <div class="contact-list">
+        <a href="mailto:septiandwiputra72@gmail.com" class="contact-row">
+          <span class="contact-number">01</span>
+
+          <span class="contact-name">EMAIL</span>
+
+          <span class="contact-value"> septiandwiputra72@gmail.com </span>
+
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+
+        <a
+          href="https://github.com/Shoruu72"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="contact-row"
+        >
+          <span class="contact-number">02</span>
+
+          <span class="contact-name">GITHUB</span>
+
+          <span class="contact-value"> Shoruu72 </span>
+
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+
+        <a
+          href="https://instagram.com/sptn_72"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="contact-row"
+        >
+          <span class="contact-number">03</span>
+
+          <span class="contact-name">INSTAGRAM</span>
+
+          <span class="contact-value"> @sptn_72 </span>
+
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+
+        <a
+          href="https://tiktok.com/@s_for_shoruu"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="contact-row"
+        >
+          <span class="contact-number">04</span>
+
+          <span class="contact-name">TIKTOK</span>
+
+          <span class="contact-value"> Shoruu </span>
+
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- BRAND -->
+        <div class="footer-column footer-brand">
+          <h2>SHORUU<span>.</span></h2>
+          <p>IT STUDENT & DEVELOPER</p>
+        </div>
+
+        <!-- NAVIGATION -->
+        <div class="footer-column">
+          <h4>NAVIGATION</h4>
+
+          <a href="#home">HOME</a>
+          <a href="#about">ABOUT</a>
+          <a href="#skills">SKILLS</a>
+          <a href="#learning">LEARNING</a>
+          <a href="#contact">CONTACT</a>
+        </div>
+
+        <!-- CONNECT -->
+        <div class="footer-column">
+          <h4>CONNECT</h4>
+
+          <a href="mailto:septiandwiputra72@gmail.com"> EMAIL </a>
+
+          <a
+            href="https://github.com/Shoruu72"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GITHUB
+          </a>
+
+          <a
+            href="https://instagram.com/sptn_72"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            INSTAGRAM
+          </a>
+
+          <a
+            href="https://tiktok.com/@s_for_shoruu"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            TIKTOK
+          </a>
+        </div>
+
+        <!-- INFORMATION -->
+        <div class="footer-column">
+          <h4>INFORMATION</h4>
+
+          <span>IT Student</span>
+          <span>Based in Indonesia</span>
+          <span>Always Learning</span>
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <!-- SOCIAL ICON -->
+      <div class="footer-social">
+        <a
+          href="https://github.com/Shoruu72"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a
+          href="https://instagram.com/sptn_72"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a
+          href="https://tiktok.com/@s_for_shoruu"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+
+        <a href="mailto:septiandwiputra72@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+
+      <div class="footer-copyright">© 2026 SHORUU. ALL RIGHTS RESERVED.</div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
