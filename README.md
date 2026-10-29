@@ -1,4 +1,4 @@
-# Septia Dwi Putra — Personal Portfolio
+# Septian Dwi Putra — Personal Portfolio
 
 A personal portfolio website showcasing my profile, skills, learning journey, and contact information as an IT student and aspiring developer.
 
