@@ -47,7 +47,7 @@ portofolio-shoruu/
 ## Contact
 
 * **Email:** septiandwiputra72@gmail.com
-* **GitHub:** [@Ryugen72](https://github.com/Shoruu72)
+* **GitHub:** [@Shoruu72](https://github.com/Shoruu72)
 * **Instagram:** [@sptn_72](https://instagram.com/sptn_72)
 * **TikTok:** [@s_for_shoruu](https://tiktok.com/@s_for_shoruu)
 
